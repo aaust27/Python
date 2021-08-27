@@ -1,9 +1,0 @@
-users = dict(aaustin='password', lbillings='letmein', ijoseph='nrb')
-username = input("Enter your username: ")
-pw = input("Enter your password: ")
-if username not in users or pw != users[username]:
-    print("Wrong username or password")
-else:
-    print("1. Users  "
-          "2. Reset")
-         
